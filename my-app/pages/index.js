@@ -1,3 +1,7 @@
+import Head from 'next/head'
+import Image from 'next/image'
+import styles from '../styles/Home.module.css'
+
 export default function Home() {
 	return (
 		<div className={styles.body_container}>
@@ -30,7 +34,7 @@ export default function Home() {
 				</a>
 				<a
 					className={styles.nav_links}
-					href="https://github.com/username"
+					href="https://github.com/dmrt209"
 				>
 					{" "}
 					Github{" "}
@@ -38,7 +42,7 @@ export default function Home() {
 			</nav>
 
 			<main className={styles.main_container}>
-				<h1>Hello, I'm Gian!</h1>
+				<h1>Hello, I'm David!</h1>
 				<pre className={styles.pre_code_container}>
 					<p className={styles.code_container}>
 						👋 I am currently pursuing a Bachelor's degree in
@@ -49,14 +53,10 @@ export default function Home() {
 						University Stanislaus.
 					</p>
 					<p className={styles.code_container}>
-						💼 In the past I have worked as a Software Engineering
-						Academic Intern at JPMorgan Chase &38; Co. - Palo Alto
-						Office
+						💼 I am an incoming Information Security Intern at Apple!
 					</p>
 					<p className={styles.code_container}>
-						💬 Feel free to talk to me about paving the way for
-						students to achieve success through new opportunities
-						and being as inclusive as possible.
+						💬 Feel free to talk to me about anything that you are passionate about.
 					</p>
 
 					{/* Add the terminal division */}
@@ -71,3 +71,4 @@ export default function Home() {
 		</div>
 	);
 }
+
