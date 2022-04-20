@@ -43,7 +43,7 @@ export default function Home() {
 				<pre className={styles.pre_code_container}>
 					<p className={styles.code_container}>
 						👋 I am currently pursuing a Bachelor&apos;s degree in
-						Computer Science
+						Computer Science.
 					</p>
 					<p className={styles.code_container}>
 						💻 I&apos;m a Computer Science major at California State
