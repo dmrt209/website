@@ -39,7 +39,7 @@ export default function Home() {
       </nav>
 
 			<main className={styles.main_container}>
-				<h1>Hello, I&apos;m David!</h1>
+				<h1>Hello, Im David!</h1>
 				<pre className={styles.pre_code_container}>
 					<p className={styles.code_container}>
 						👋 I am currently pursuing a Bachelor&apos;s degree in
