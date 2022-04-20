@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
@@ -19,37 +20,33 @@ export default function Home() {
 				<h1>Portfolio</h1>
 			</header>
 
-			<nav className={styles.nav_container}>
-				<a className={styles.nav_links} href="#">
-					{" "}
-					Blog{" "}
-				</a>
-				<a className={styles.nav_links} href="#">
-					{" "}
-					About{" "}
-				</a>
-				<a className={styles.nav_links} href="#">
-					{" "}
-					Projects{" "}
-				</a>
-				<a
-					className={styles.nav_links}
-					href="https://github.com/dmrt209"
-				>
-					{" "}
-					Github{" "}
-				</a>
-			</nav>
+      <nav className={styles.nav_container}>
+		  <Link href="/blog" passHref>
+			  <a className={styles.nav_links}>Blog</a>
+		  </Link>
+
+		  <Link href="/about" passHref>
+			  <a className={styles.nav_links}>About</a>
+		  </Link>
+
+		  <Link href="/projects" passHref>
+			  <a className={styles.nav_links}>Projects</a>
+		  </Link>
+
+		  <Link href="https://github.com/dmrt209" passHref>
+			  <a className={styles.nav_links}>Github</a>
+		  </Link>
+      </nav>
 
 			<main className={styles.main_container}>
-				<h1>Hello, I'm David!</h1>
+				<h1>Hello, I&apos;m David!</h1>
 				<pre className={styles.pre_code_container}>
 					<p className={styles.code_container}>
-						👋 I am currently pursuing a Bachelor's degree in
+						👋 I am currently pursuing a Bachelor&apos;s degree in
 						Computer Science
 					</p>
 					<p className={styles.code_container}>
-						💻 I'm a Computer Science major at California State
+						💻 I&apos;m a Computer Science major at California State
 						University Stanislaus.
 					</p>
 					<p className={styles.code_container}>
